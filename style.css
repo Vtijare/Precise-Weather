@@ -1,0 +1,209 @@
+/* Base styles */
+body {
+    background-color: #f4f1f6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #a373c3;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+/* Login Button */
+#loginBtn {
+    background-color: #a373c3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for login button */
+#loginBtn:hover {
+    background-color: #8e5cb5;
+    transform: translateY(-2px);
+}
+
+/* About section */
+.about-section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section p {
+    color: #797777;
+    font-size: 1.2em;
+}
+
+/* Flex container */
+.section-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+/* Section styles */
+.section-container section {
+    flex: 1;
+    min-width: 280px;
+    max-width: 48%;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #a373c3;
+    color: white;
+}
+
+/* Button styles */
+button {
+    background-color: #a373c3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #8e5cb5;
+    transform: translateY(-2px);
+}
+
+/* Form section */
+.form-section {
+    background: white;
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(163, 115, 195, 0.2);
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.form-section h2 {
+    text-align: center;
+    color: #6a329f;
+    font-size: 2.2em;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input styling */
+form label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+form input,
+form textarea {
+    margin-bottom: 20px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fefefe;
+}
+
+/* Button for Get Weather */
+form input,
+form button {
+    width: 100%; /* Full width */
+}
+
+/* Button below the input */
+form button {
+    margin-top: 10px; /* Space between input and button */
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #a373c3;
+    box-shadow: 0 0 8px rgba(163, 115, 195, 0.5);
+    outline: none;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Stylish button for forms */
+form button {
+    background-color: #a373c3;
+}
+
+/* Minor adjustments for weather section */
+#cityInput {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#colorChangeButton {
+    background-color: #8e5cb5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#colorChangeButton:hover {
+    background-color: #6b459d;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
